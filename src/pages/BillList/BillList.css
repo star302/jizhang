@@ -1,0 +1,101 @@
+p, body{
+    margin: 0;
+    padding: 0;
+}
+ul, li{
+   list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.list-date ul{
+    background-color: #ffffff;
+}
+.bill-list-container{
+    padding-top: 40px;
+    padding-bottom: 90px;
+}
+
+.info-sum{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 10px 5px 10px;
+}
+.info-sum-time{
+    display: flex;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.info-sum-amount{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 13px;
+}
+.info-list{
+
+}
+.list-container{
+    margin: 0 10px 10px 10px;
+}
+.list-date{
+    display: flex;
+    align-items: center;
+    background-color: #2065ff;
+    height: 30px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #ffffff;
+    padding: 0 10px;
+}
+.list-container ul{
+    border: 1px solid #ABABAB;
+    background-color: #ffffff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.list-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 10px;
+    min-height: 37px;
+}
+.list-item-info{
+    display: flex;
+    flex-direction: column;
+}
+.list-item-info-remark{
+    color: #ABABAB;
+    font-size: 12px;
+    line-height: 16px;
+    max-height: 16px;
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+.add-btn{
+    position: fixed;
+    right: 20px;
+    bottom: 60px;
+    width: 80px;
+    height: 30px;
+    background-color: orange;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    opacity: 0.8;
+}
+.add a:link, .add a:visited{
+    text-decoration: none;
+    color: #ffffff;
+}

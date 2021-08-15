@@ -1,0 +1,123 @@
+.body, .head, p, select{
+    margin: 0;
+    padding: 0;
+}
+.add-one-container{
+    padding: 40px 0;
+}
+.back-btn{
+    position: absolute;
+    left: 10px;
+    border: none;
+    padding: 0;
+    background-color: #ffffff;
+}
+.add-title{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ABABAB;
+}
+.add-one-container input{
+    border: none;
+    width: 100%;
+    background-color: #f5f5f9;
+}
+.add-detail{
+    margin: 10px 10px;
+}
+.add-detail-item{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border-bottom: 1px solid #CDCDCD;
+    padding: 5px 0;
+}
+.add-detail-item-label{
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+}
+.add-detail-item-input{
+    width: 75%;
+    display: flex;
+    justify-content: flex-end;
+}
+.select-item{
+    height: 22px;
+    border: none;
+    background-color: #f5f5f9;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+.add-input-out{
+    font-size: 28px;
+    color: green;
+}
+.add-input-out::-webkit-input-placeholder{
+    color: green;
+}
+.add-input-in{
+    font-size: 28px;
+    color: red;
+}
+.add-input-in::-webkit-input-placeholder{
+    color: red;
+}
+.add-detail-save{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.add-detail-btn{
+    width: 80px;
+    height: 30px;
+    background-color: orange;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+.del-btn{
+    background-color: red;
+}
+.date-picker{
+    display: flex;
+}
+.date-picker-svg{
+    display: flex;
+    align-items: center;
+}
+.svg-back{
+    margin: 0;
+    fill: #000000;
+}
+.svg-more{
+    margin-left: 2px;
+    font-size: 10px;
+}
+.svg-money{
+    fill: rgba(203, 27, 17, 0.78)
+}
+.svg-category{
+    margin-right: 5px;
+    fill: rgba(203,199,16,0.78)
+}
+.svg-date{
+    margin-right: 5px;
+    fill: rgba(203,97,14,0.78)
+}
+.svg-remark{
+    margin-right: 5px;
+    fill: rgba(166,24,203,0.78)
+}
+

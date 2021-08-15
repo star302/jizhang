@@ -1,0 +1,20 @@
+.title-container{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    height: 40px;
+    width: 100%;
+    border-top-style: solid;
+    border-top-color: #808080;
+    border-top-width: 1px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    z-index: 10;
+}
+.not-active{
+
+}
+.is-active{
+    color: #2065ff;
+}

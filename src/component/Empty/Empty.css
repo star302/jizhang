@@ -1,0 +1,11 @@
+.empty-container{
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.svg-empty{
+    fill: #2065ff;
+    font-size: 128px;
+}
