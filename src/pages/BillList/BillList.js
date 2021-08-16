@@ -21,7 +21,7 @@ export default class BillList extends React.Component{
             month: this.state.date.getMonth() + 1,
         }
         get("getBillList", data).then((res) => {
-            console.log(res, data);
+            // console.log(res, data);
             this.setState({
                 billList: res.data.result.billList,
                 sumIn: res.data.result.sumIn,

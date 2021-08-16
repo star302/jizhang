@@ -84,9 +84,9 @@ export default class AddOne extends React.Component{
             date: this.state.date,
             remark: this.state.remark,
         }
-        console.log("save", data);
+        // console.log("save", data);
         post('insertToBill', data).then( (res) => {
-            console.log(res);
+            // console.log(res);
             history.goBack();
         }).catch((err) => {
 
@@ -109,9 +109,9 @@ export default class AddOne extends React.Component{
             date: this.state.date,
             remark: this.state.remark,
         }
-        console.log("update", data);
+        // console.log("update", data);
         post('updateBill', data).then( (res) => {
-            console.log(res);
+            // console.log(res);
             history.goBack();
         }).catch((err) => {
 
@@ -126,9 +126,9 @@ export default class AddOne extends React.Component{
             account: localStorage.getItem("account"),
             id: this.item.id,
         }
-        console.log(data);
+        // console.log(data);
         post('deleteBill', data).then( (res) => {
-            console.log(res);
+            // console.log(res);
             history.goBack();
         }).catch((err) => {
 

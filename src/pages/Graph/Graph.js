@@ -129,7 +129,7 @@ export default class Graph extends React.Component {
             from: from.format("yyyy.M.d"),
             to: to.format("M.d")
         }, () => {this.getData()})
-        console.log(from, to, this.state)
+        // console.log(from, to, this.state)
     }
     goRight = () => {
         let from, nextFirst, to;
@@ -154,7 +154,7 @@ export default class Graph extends React.Component {
             from: from.format("yyyy.M.d"),
             to: to.format("M.d")
         }, () => {this.getData()})
-        console.log(from, to, this.state)
+        // console.log(from, to, this.state)
     }
 
     render() {
